@@ -1,0 +1,12 @@
+[project]
+name = "humanoid-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.142.2",
+    "groq>=1.7.0",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.54.0",
+]
